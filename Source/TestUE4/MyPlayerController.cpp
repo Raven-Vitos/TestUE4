@@ -25,5 +25,5 @@ void AMyPlayerController::MoveRight(float Value)
 {
 	// Логика движения вправо
 	FVector Direction = FVector::RightVector;
-	GetPawn()->AddMovementInput(Direction, 0.0f);
+	GetPawn()->AddMovementInput(Direction, Value);
 }
